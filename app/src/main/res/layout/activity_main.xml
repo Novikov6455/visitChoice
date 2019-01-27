@@ -56,4 +56,13 @@
             app:layout_constraintBottom_toTopOf="@+id/textInputLayout" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" android:textSize="30sp" android:textAlignment="center"/>
+    <TextView
+            android:text="may BE????"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAsk" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/selectedVisitTxt" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"/>
 </android.support.constraint.ConstraintLayout>

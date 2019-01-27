@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var occupation = "developer"
+        var name ="JonnyB"
 
         decideBtn.setOnClickListener {
             val random = java.util.Random()
